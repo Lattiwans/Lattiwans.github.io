@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    button {
+        background-color: blue
+    }
+    .text {
+        color: brown;
+        font-size: 20px;
+    }
+
+    </style>
+<!--JavaScript -->
+<script>
+    function onAleart (){
+        alert('Hello Word...!');
+}
+    function onAleartmyText (text){
+        var mergeText = document.getElementById('myText').value;
+        alert(mergeText);
+
+    }
+
+</script>
+</head>
+<body>
+    Hello World <br>
+
+<!--Img Tag-->
+    <img style="width: 200px; height:200px;" src="./img/Kitty.jpg"></img>
+<!-- <h1 class ="my-img">5555</hr>-->
+    <H1 class="text text1">H1</H1>
+    <button Style="background-color: aquamarine"><H2 >Hi</H2></button><br>
+    <button onclick="onAleart()"><h1 style="color:aqua" style="color:blueviolet">Ok</h1></button>
+
+    <br>
+    <hr/><br/>
+    Please enter Text :<input type="text" id="myText"></input>
+    <button onclick="onAleartmyText('Your Text.')">OK</button>
+
+</body>
+</html>
